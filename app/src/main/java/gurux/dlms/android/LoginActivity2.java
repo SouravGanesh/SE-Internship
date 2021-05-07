@@ -28,7 +28,7 @@ public class LoginActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.logpage);
+        setContentView(R.layout.activity_login2);
 
         mFirebaseAuth=FirebaseAuth.getInstance();
         emailId=findViewById(R.id.editTextTextEmailAddress);
@@ -41,7 +41,7 @@ public class LoginActivity2 extends AppCompatActivity {
                 FirebaseUser mFirebaseUser = mFirebaseAuth.getCurrentUser();
                 if(mFirebaseUser != null){
                     Toast.makeText(LoginActivity2.this, "You are Logged in ", Toast.LENGTH_SHORT).show();
-                    Intent i = new Intent(LoginActivity2.this,HomeActivity2.class);
+                    Intent i = new Intent(LoginActivity2.this,MainScreen.class);
                     startActivity(i);
                 }
                 else{
@@ -73,7 +73,7 @@ public class LoginActivity2 extends AppCompatActivity {
                                 Toast.makeText(LoginActivity2.this,"Login Error,Please login again.",Toast.LENGTH_SHORT).show();
                             }
                             else{
-                                Intent intToHome = new Intent(LoginActivity2.this, HomeActivity2.class);
+                                Intent intToHome = new Intent(LoginActivity2.this, MainScreen.class);
                                 startActivity(intToHome);
                             }
                         }
@@ -88,7 +88,7 @@ public class LoginActivity2 extends AppCompatActivity {
         tvSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intSignUp = new Intent(LoginActivity2.this, log1.class);
+                Intent intSignUp = new Intent(LoginActivity2.this, MainActivity.class);
                 startActivity(intSignUp);
             }
         });

@@ -93,7 +93,7 @@ public class GXDLMSConverter {
                     io.close();
                 }
             } catch (Exception e) {
-                throw new RuntimeException(e.getMessage());
+                    //should have written to catch but app stops this activity so removed
             }
         }
         readStandardObisInfo(context, codes);

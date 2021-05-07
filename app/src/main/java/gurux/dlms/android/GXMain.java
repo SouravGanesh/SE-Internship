@@ -51,9 +51,7 @@ import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.fragment.app.Fragment;
-
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;

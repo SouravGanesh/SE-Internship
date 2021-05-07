@@ -1,20 +1,18 @@
 {
-  "version": 1,
+  "version": 2,
   "artifactType": {
     "type": "APK",
     "kind": "Directory"
   },
   "applicationId": "gurux.dlms.android",
-  "variantName": "release",
+  "variantName": "processReleaseResources",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "properties": [],
       "versionCode": 1,
       "versionName": "1.0.3",
-      "enabled": true,
-      "outputFile": "release\\gurux.dlms.android.apk"
+      "outputFile": "release/gurux.dlms.android.apk"
     }
   ]
 }

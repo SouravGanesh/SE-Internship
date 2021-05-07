@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "258135128187",
+    "project_id": "login-app-2b6c2",
+    "storage_bucket": "login-app-2b6c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258135128187:android:bd11b4f0896dc39ddb4ade",
+        "android_client_info": {
+          "package_name": "gurux.dlms.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258135128187-eiceufg0ob1vi444fvvl6pnj7qatt1a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASc_dEjsxBcqAEuaQkwXGVcJRteLQYbV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258135128187-eiceufg0ob1vi444fvvl6pnj7qatt1a3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
